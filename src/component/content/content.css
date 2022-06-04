@@ -1,0 +1,11 @@
+.header{
+    background-color: lightgreen;
+    height:720px  !important;
+}
+
+.title{
+    /* background-color: deeppink !important; */
+    height:max-content;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

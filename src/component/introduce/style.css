@@ -1,0 +1,93 @@
+.frag{
+    height: 30px;
+}
+
+.intro-title { 
+    font-size: 44px;
+    margin-top: 190px;
+    padding: 0;
+    margin: 0;
+    height: 130px;
+    margin-top: 20px;
+    line-height: 95px;
+    text-align: center;
+    color:#fff;
+    background-color:#dddc8a;
+}
+
+.intro-title::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #9C9C9C;
+}
+
+.intro-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dddc8a;
+}
+
+.intro-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.intro-container .card{
+    position: relative;
+    max-width: 300px;
+    height: 285px;
+    background: #fff;
+    margin: 30px 30px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+}
+
+.intro-container .card:hover{
+    height: 420px;
+}
+
+.intro-container .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.intro-container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.intro-container .card .content{
+    position: relative;
+    margin-top: -130px;
+    padding: 10px 30px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.intro-container .card:hover .content{
+    visibility: visible;
+    opacity: 0.7;
+    margin-top: -40px;
+    transition-delay: .3s;
+}

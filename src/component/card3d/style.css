@@ -1,0 +1,114 @@
+.card-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../images//card3d/bg.jpg) no-repeat;
+    background-size: cover;
+}
+.wrap{
+    width: 1200px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-between;
+}
+
+.card-item{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+     box-shadow: -1px 15px 30px -12px #000;
+     transform-style: preserve-3d;
+}
+
+.role{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    background: url(../../images/card3d/listbg1.jpg);
+    position: relative;
+}
+
+.role2{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    background: url(../../images/card3d/listbg2.jpg);
+    position: relative;
+}
+
+.role3{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    background: url(../../images/card3d/listbg3.jpg);
+    position: relative;
+}
+
+.role img{
+    width:390px;
+    position: absolute;
+    top: -30%;
+    left: -18%;
+    transform:translateZ(50px);
+}
+
+.role2 img{
+    width:390px;
+    position: absolute;
+    top: -30%;
+    left: -18%;
+    transform:translateZ(50px);
+}
+
+.role3 img{
+    width:390px;
+    position: absolute;
+    top: -30%;
+    left: -18%;
+    transform:translateZ(50px);
+}
+
+.des{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+     transform:translateZ(50px);
+}
+.des h6{
+    color: #dddc8a;
+    font-weight: 400;
+}
+
+.des h1{
+padding: 10px;
+font-size: 26px;
+}
+.des p{
+    text-align: left;
+    font-size: 14px;
+    padding: 0 16px;
+    color: #9e9e9e;
+}
+
+
+.btn-list{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    line-height: 66px;
+    color: #fff;
+    justify-content: space-around;
+    background-color: #dddc8a;
+    border-radius: 20px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
